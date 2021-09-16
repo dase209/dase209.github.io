@@ -13,5 +13,11 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
+  <div class="post-tools">
+    <ul>
+      <li><a href="{{ site.project.url }}/edit/{{ site.project.branch }}/{{ page.path }}">Edit</a></li>
+    </ul>
+  </div>
+
   {% include disqus.html %}
 </article>
